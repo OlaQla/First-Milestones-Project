@@ -470,6 +470,8 @@ footer {
 
 .container {
     display: flex;
+ background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
+
 }
 
 .container>*+* {
@@ -488,17 +490,15 @@ footer {
 
 /*--------------------------------------------column-main */
 .column-sidebar{
-    background-color: #c1c1f8;
+    background-color: transparent;
     color:#fafafa;
     text-align: center;
     padding: 10px 10px;
-        background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
 
 }
 .column-main {
     font: Arial, sans-serif;
     color: #fff;
-    background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
     background-attachment: fixed;
     background-repeat: no-repeat;
    
