@@ -493,12 +493,13 @@ footer {
 }
 
 .column-sidebar h2 {
-    
+
     Font-family: "Exo", sans-serif;
     text-align: center;
     font-weight: 400;
     color: #FFD700;
 }
+
 .column-sidebar i {
     padding-right: 15px;
 }
@@ -859,68 +860,71 @@ footer {
 }
 
 /*----------------------------------------------- Big Bang Theory*/
+
 .row {
-  font-family: "Roboto", sans-serif;
-    background-color: #fafafa;  
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
     font-weight: 400;
     color: #525252;
 }
-.bb-photo{
+
+.bb-photo {
     float: left;
-    width:50%;
-    margin-bottom:50px;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
 .bb-photo img {
     margin-top: 20px;
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
+
 .bb-text {
     float: left;
-    width:50%;
-    margin-bottom:15px;
-    
+    width: 50%;
+    margin-bottom: 15px;
+
 }
 
 .bb-text h2 {
     font-family: "Exo", sans-serif;
-    color:#e67e22;
-    text-align:center;
-   margin-top: 100px;
-    
+    color: #e67e22;
+    text-align: center;
+    margin-top: 100px;
+
 }
 
 .bb-text p {
     padding-right: 15px;
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     font-weight: 500;
-    
+
 }
 
 
-.bbTheory-photo{
-    display:block;
+.bbTheory-photo {
+    display: block;
 }
 
 .bbTheory-photo img {
-    width:100%;
+    width: 100%;
     height: auto;
-     background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
-   max-height:650px;
+    background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
+    max-height: 650px;
 }
 
 .bbt-heading {
     display: block;
     font-family: "Exo", sans-serif;
-    text-align:center;
-    color:#e67e22;
+    text-align: center;
+    color: #e67e22;
 }
 
 
 .timeline-item {
-    padding:15px 15px;
+    padding: 15px 15px;
     position: relative;
     color: #515a5f;
     border-left: 2px solid;
@@ -933,7 +937,8 @@ footer {
 }
 
 .timeline-item h4 {
-    color: #e67e22;;
+    color: #e67e22;
+    ;
 }
 
 .timeline-item:before {
@@ -966,17 +971,102 @@ footer {
     margin-bottom: 30px;
 }
 
+/*---------------------------------------------Media BigBAng*/
+
 @media (max-width: 767px) {
     .bb-text h2 {
         margin-top: 20px;
 
     }
-   .bb-text p {
-     font-size: 16px;  
-   } 
-   
-   .bb-photo img {
-    margin-top: 50px;
-   }
+    .bb-text p {
+        font-size: 16px;
+    }
+
+    .bb-photo img {
+        margin-top: 50px;
+
+    }
 }
 
+/*---------------------------------------------Section Sun*/
+.section-sun {
+   
+    margin-top: 20px;
+}
+ .flex {
+     display: flex;
+     
+ }
+ 
+ .flex > * + * {
+     margin-top:0;
+    
+ }
+ 
+ .column-left {
+     flex: 1;
+     border-right: 1px solid #dcdedf;
+ }
+
+.column-right {
+     flex: 1;
+ }
+.flex h2 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    color: #F9D71C;
+    font-size: 35px;
+    margin:20px 0 0 0;
+}
+
+.flex p {
+    font-family: "Roboto", sans-serif;
+    color: #515a5f;
+    padding: 15px 15px;
+    margin:0;
+    text-align: justify;
+}
+.sun-photo {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.sun-photo img {
+    width:100%;
+    height:auto;
+    margin-top: 20px;
+}
+.about-sun {
+    padding: 15px 15px;
+}
+.about-sun h2 {
+    margin-top:0;
+    font-family: "Exo", sans-serif;
+    color: #F9D71C;
+    font-size: 25px;
+  
+}
+
+.about-sun p {
+    font-family: "Roboto", sans-serif;
+    color: #515a5f;
+    text-align: justify;
+}
+
+.history {
+    margin: 0 10px 5px 0;
+    float: left;
+}
+
+.layers {
+    margin: 0 0 5px 10px;
+    float:right;
+    width: 220px;
+    height:215px;
+}
+
+.layers img {
+    width:100%;
+    height:auto;
+}
