@@ -891,13 +891,13 @@ footer {
     font-family: "Exo", sans-serif;
     color: #e67e22;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 
 }
 
 .bb-text p {
     padding-right: 15px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: 500;
 
@@ -960,7 +960,7 @@ footer {
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -6px;
+    left: -7px;
     border-radius: 12px;
     content: '';
     background: #515a5f;
@@ -989,43 +989,47 @@ footer {
 }
 
 /*---------------------------------------------Section Sun*/
+
 .section-sun {
-   
+
     margin-top: 20px;
 }
- .flex {
-     display: flex;
-     
- }
- 
- .flex > * + * {
-     margin-top:0;
-    
- }
- 
- .column-left {
-     flex: 1;
-     border-right: 1px solid #dcdedf;
- }
+
+.flex {
+    display: flex;
+
+}
+
+.flex>*+* {
+    margin-top: 0;
+
+}
+
+.column-left {
+    flex: 1;
+    border-right: 1px solid #dcdedf;
+}
 
 .column-right {
-     flex: 1;
- }
+    flex: 1;
+}
+
 .flex h2 {
     font-family: "Exo", sans-serif;
     text-align: center;
     color: #F9D71C;
     font-size: 35px;
-    margin:20px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .flex p {
     font-family: "Roboto", sans-serif;
     color: #515a5f;
     padding: 15px 15px;
-    margin:0;
+    margin: 0;
     text-align: justify;
 }
+
 .sun-photo {
     display: block;
     width: 80%;
@@ -1033,19 +1037,21 @@ footer {
 }
 
 .sun-photo img {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     margin-top: 20px;
 }
+
 .about-sun {
     padding: 15px 15px;
 }
+
 .about-sun h2 {
-    margin-top:0;
+    margin-top: 0;
     font-family: "Exo", sans-serif;
     color: #F9D71C;
     font-size: 25px;
-  
+
 }
 
 .about-sun p {
@@ -1061,12 +1067,168 @@ footer {
 
 .layers {
     margin: 0 0 5px 10px;
-    float:right;
+    float: right;
     width: 220px;
-    height:215px;
+    height: 215px;
 }
 
 .layers img {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
+
+/*---------------------------------------------Section Planets*/
+
+.planets-grid {
+    background-color: rgb(81, 90, 95, 0.2);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 960px;
+    margin: 50px auto 30px;
+    padding: 25px 25px;
+}
+
+.featured {
+    position: relative;
+}
+
+
+
+.planets-grid img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.planets-grid figcaption {
+    padding: 0.3em 0.8em;
+    background-color: #515a5f;
+    color: #fafafa;
+    text-align: center;
+}
+
+.style {
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.style h4 {
+    margin: 0;
+    Font-size: 40px;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    background: #fafafa;
+    background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+
+}
+
+.style p {
+    padding: 0 10px 0 10px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #515a5f;
+    text-align: center;
+}
+
+.featured {
+    transition-duration: 1s;
+    transition-timing-function: easy-in;
+}
+
+.featured:hover {
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 767px) {
+    .planets-grid{
+        margin:0;
+    }
+    
+    .planet-text{
+        display:none;
+    }
+}
+
+@media (min-width: 768px) {
+    .planet-text-small{
+        display:none;
+    }
+}
+/*-------------------------------------Planet separate pages*/
+
+.wrap {
+    display: flex;
+    min-height: 500px;
+}
+
+.wrap>*+* {
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+.section-img {
+    flex: 1;
+    background-color: rgb(81, 90, 95, 0.2);
+    
+}
+
+.section-text {
+    flex: 2;
+    padding: 15px 40px;
+
+}
+.wrap-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+.section-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.section-text h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    color:#88028A;
+    letter-spacing: 2px;
+}
+
+.section-text p {
+    font-size: 16px;
+    font-family:"Roboto", sans-serif;
+    text-align: justify;
+    color: #515a5f;
+}
+
+@media (max-width:767px) {
+    .wrap {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
