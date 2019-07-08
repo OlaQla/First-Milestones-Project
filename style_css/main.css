@@ -87,8 +87,6 @@ body {
     padding: 0px;
     background-color: #515a5f;
     font-family: "Exo", sans-serif;
-
-
 }
 
 
@@ -96,7 +94,6 @@ body {
     color: #fafafa;
     font-size: 16px;
     margin: 0;
-
 }
 
 .title span {
@@ -109,6 +106,7 @@ body {
     color: #fafafa;
     padding: 20px;
     margin-bottom: 0px;
+    margin-top:0;
 }
 
 
@@ -243,7 +241,7 @@ button {
     }
     .nav-menu>div {
         flex: 1;
-       
+
     }
 
     .menuitem span {
@@ -286,7 +284,7 @@ button {
     .discoverires-button:hover {
         color: rgba(205, 220, 57, 0.7);
     }
-    .galery-button :hover {
+    .gallery-button :hover {
         color: rgba(0, 188, 212, 0.7);
     }
 
@@ -904,7 +902,8 @@ footer {
 
 
 .bbTheory-photo {
-    display: block;
+display: block;
+padding:1.5em;
 }
 
 .bbTheory-photo img {
@@ -912,6 +911,9 @@ footer {
     height: auto;
     background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
     max-height: 650px;
+    margin-left:auto;
+ margin-right:auto;
+
 }
 
 .bbt-heading {
@@ -1237,24 +1239,26 @@ footer {
 }
 
 
-/*--------------------------------------------Galery*/
+/*--------------------------------------------Gallery*/
+
 .wrapp {
     background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
 }
-.galery-container {
-    max-width: 1250px;
+
+.gallery-container {
+    max-width: 1330px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: 1fr;
     grid-gap: 0.6em;
     grid-auto-flow: dense;
     margin: 0px auto 0px;
-  
+
     padding: 20px 20px;
 
 }
 
-.galery-container>div {
+.gallery-container>div {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -1262,54 +1266,146 @@ footer {
 
 }
 
-.galery-container img {
+.gallery-container img {
     max-width: 100%;
     flex: 1;
 }
 
-.galery-container p {
-position: relative;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.0);
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Exo" sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 2px;
+.gallery-container p {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.0);
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Exo" sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 
-.galery-container .big {
+.gallery-container .big {
 
     grid-row: span 2;
     grid-column: span 2;
 }
+
 .frame {
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 767px) {
-    .galery-container .big {
+/*----------------------------------------------Media Gallery*/
 
+@media (max-width: 767px) {
+    .gallery-container .big {
         grid-row: span 1;
         grid-column: span 1;
     }
 
-    .galery-container>div {
-        margin: 0 auto;
+    .gallery-container>div {
+        margin: 0 2px;
 
     }
-    .galery-container img {
+    .gallery-container img {
         height: auto;
 
     }
-    .galery-container {
-        grid-gap: 5px;
-        margin: 5px;
+    .gallery-container {
+        grid-gap: 0.3em;
+        margin: 0 0.3em 0px 0.3em;
+        padding:0.3em 0 0.3em 0 ;
     }
+    
+}
+
+/*----------------------------------------------Section Moon*/
+
+.section-background {
+    background: url("https://wallpapercave.com/wp/wp3021612.jpg") no-repeat fixed center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.module h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #0d47a1;
+    display: block;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.columns-wrap {
+    display: flex;
+    padding: 1.5em 0;
+
+}
+
+.left-column {
+    flex: 66%;
+    margin: 0 0.3em 20em 1em;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.right-colunm {
+    flex: 33%;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 0 1em 0 1em;
+  
+}
+
+.right-colunm ul {
+    list-style: none;
+    padding: 0 1em 0 1em;
+}
+
+.right-colunm span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right-colunm li {
+    font-size: 0.7em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.columns-wrap h4 {
+    color: #3F729B;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em 0.5em;
+}
+
+.columns-wrap p {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    padding: 0 1.5em 0 1.5em;
+}
+
+/*------------------------------------------------------Media Moon*/
+
+@media (max-width:767px) {
+    .columns-wrap {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .left-column {
+        margin: 1em 1em;
+    }
+
 }
