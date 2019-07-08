@@ -243,8 +243,7 @@ button {
     }
     .nav-menu>div {
         flex: 1;
-        border-right: 1px #515a5f solid;
-
+       
     }
 
     .menuitem span {
