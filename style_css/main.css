@@ -824,7 +824,7 @@ footer {
 
 /*----------------------------------------------- Media HomePage*/
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .container {
         flex-wrap: wrap;
         flex-direction: column;
@@ -850,7 +850,7 @@ footer {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:769px) {
     .column-main img {
         display: none;
     }
@@ -1081,7 +1081,7 @@ footer {
 /*---------------------------------------------Section Planets*/
 
 .planets-grid {
-    background-color: rgb(81, 90, 95, 0.2);
+    background-color: rgba(81, 90, 95, 0.2);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 30px;
@@ -1162,7 +1162,7 @@ footer {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .planets-grid {
         margin: 0;
     }
@@ -1172,7 +1172,7 @@ footer {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .planet-text-small {
         display: none;
     }
@@ -1353,14 +1353,14 @@ footer {
 .left-column {
     flex: 66%;
     margin: 0 0.3em 20em 1em;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 
 .right-colunm {
     flex: 33%;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(0, 0, 0, 0.3);
     margin: 0 1em 0 1em;
 
@@ -1383,7 +1383,7 @@ footer {
 }
 
 .columns-wrap h4 {
-    color: #3F729B;
+    color: #264b82;
     font-family: "Exo", sans-serif;
     text-align: center;
     font-size: 1.5em;
@@ -1437,7 +1437,7 @@ footer {
 }
 
 .dics-wrap {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 1.2em;
     position: relative;
     margin: 1.5em 2em;
@@ -1452,7 +1452,7 @@ footer {
     top: 2em;
     border-top: 0.7em  solid transparent;
     border-right: none;
-    border-left: 0.7em  solid rgba(255, 255, 255, 0.9);
+    border-left: 0.7em  solid rgba(255, 255, 255, 0.8);
     border-bottom: 0.7em solid transparent;
 }
 
@@ -1462,7 +1462,7 @@ footer {
     left: -0.7em;
     top: 2em;
     border-top: 0.7em solid transparent;
-    border-right: 0.7em  solid rgba(255, 255, 255, 0.9);
+    border-right: 0.7em  solid rgba(255, 255, 255, 0.8);
     border-left: none;
     border-bottom: 0.7em  solid transparent;
 }
@@ -1493,7 +1493,7 @@ footer {
 
 .video {
     margin:0 auto;
-    background-color: rgba(255, 255, 255, 0.9) ;
+    background-color: rgba(255, 255, 255, 0.8) ;
     padding: 0.2em;
     border-radius: 0.1em;
 }
