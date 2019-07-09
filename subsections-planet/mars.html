@@ -41,7 +41,7 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="../main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="../main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="../main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="../main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@
 
         </div>
     </section>
-  <footer>
+    <footer>
         <div class="conteiner-footer clearfix">
 
 
@@ -108,6 +108,17 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
+
+            });
+        })();
+    </script>
 </body>
 
 </html>

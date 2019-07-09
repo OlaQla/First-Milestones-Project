@@ -41,13 +41,16 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="../main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="../main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="../main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="../main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    
     <section class="section-sun">
+        
 
         <div class="flex">
             <div class="column-left">
@@ -76,8 +79,8 @@
                 theory to be right.
             </p>
             <h2>How it is build?</h2>
-           <div class="layers">
-            <img src="http://www.earthchangesmedia.com/wp-content/uploads/2015/10/star-magnetic-core.jpg"></img>
+            <div class="layers">
+                <img src="http://www.earthchangesmedia.com/wp-content/uploads/2015/10/star-magnetic-core.jpg"></img>
             </div>
             <p>The Sun can be divided into six layers. The layers of the Sun are as follows (from the center out): the solar interior composed of the core (which occupies the innermost quarter or so of the Sun's radius), the radiative zone, and the the convective
                 zone, then there is the visible surface known as the photosphere, the chromosphere, and finally the outermost layer, the corona. The energy produced through fusion in the Sun's core powers the Sun and produces all of the heat and light
@@ -86,7 +89,7 @@
         </div>
 
     </section>
-   <footer>
+    <footer>
         <div class="conteiner-footer clearfix">
 
 
@@ -127,6 +130,18 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
+
+            });
+        })();
+    </script>
+
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
             <h1>The story of <span>space</span></h1>
         </div>
 
-       <nav class="menu" id="main-menu">
+        <nav class="menu" id="main-menu">
             <button class="menu-toggle" id="toggle-menu"> toggle menu </button>
             <div class="menu-dropdown">
                 <ul class="nav-menu">
@@ -40,7 +41,7 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="../main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="../main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="../main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="../main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
@@ -62,7 +63,7 @@
             <p>Neptune’s upper atmosphere is made of the gas methane which gives the planet a bright blue color. It takes Neptune 165 Earth years to orbit the sun. 1 day on Neptune lasts for about 16 hours, compared to Earths 24 hours.</p>
         </div>
     </section>
-   <footer>
+    <footer>
         <div class="conteiner-footer clearfix">
 
 
@@ -103,7 +104,17 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
 
+            });
+        })();
+    </script>
 </body>
 
 </html>

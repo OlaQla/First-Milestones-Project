@@ -17,6 +17,7 @@
         <div class="title">
             <h1>The story of <span>space</span></h1>
         </div>
+<!-----------------------------------main-menu buttons/hamburger icon, with links to pages about specyfic section--------->
 
         <nav class="menu" id="main-menu">
             <button class="menu-toggle" id="toggle-menu"> toggle menu </button>
@@ -25,6 +26,8 @@
                     <li class="item-color  menuitem"><a href="index.html" class="home-button"><span >Home</span></a></li>
                     <li class="item-color  menuitem"><a href="main-sections/bigbang.html" class="bigBang-button"><span >Big Bang</span></a></li>
                     <li class="item-color  menuitem"><a href="main-sections/sun.html " class="sun-button"><span>Sun</span></a></li>
+
+        <!-----------dropdown sub-menu from button "PLANETS" with links to a page about specific planet---->
 
                     <div class=dropdown>
                         <li class="item-color menuitem"><a href="main-sections/planets.html" class="planets-button"><span>Planets</span></a>
@@ -42,16 +45,23 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
+
+   
+
     <section class="wraper">
         <div class="container">
             <div class="column-main">
                 <img src="https://static.vecteezy.com/system/resources/previews/000/428/465/non_2x/vector-solar-system-background.jpg"></img>
+               
+     <!--------------- solar system model crafted manually in css (shown on a big screen)------------>
+     
                 <div class="solar">
 
                     <div class="sun"></div>
@@ -104,13 +114,14 @@
                 </div>
 
             </div>
+<!----------------------- sidebar text about solar system------------>
 
             <div class="column-sidebar">
-               
+
                 <h2><i class="fa fa-rocket" aria-hidden="true"></i>Solar System
-                
+
                 </h2>
-                
+
                 <p>Here is a true time scaled solar-system. That means every objects have a time relative to an Earth year. 1 year is equal 30 seconds.</p>
                 <p>Space is everything around our planet, Earth, and much further beyond. Nobady know how big space is, so there is a lot to explore! Our place in space is in a group of planets circling around the Sun, known as a Solar System. We live on
                     the third planet from the Sun.
@@ -138,6 +149,9 @@
 
             <div class="section-media">
                 <h5 class="uppercase general-sub">Around The Web</h5>
+                
+ <!------------------------  links to social media  ---------------------->   
+      
                 <ul class="social-links">
                     <li class="list-item">
                         <a target="_blank" href="https://www.facebook.com/NASA/">
@@ -173,6 +187,18 @@
         </div>
     </footer>
     
+    <!----------------------- java script for dropdown functionality (from hamburger icon)------------>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
+
+            });
+        })();
+    </script>
 </body>
 
 </html>

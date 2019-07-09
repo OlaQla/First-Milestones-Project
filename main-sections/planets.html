@@ -40,17 +40,22 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="../main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="../main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="../main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="../main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    
     <section class="planets-grid">
         <div class="planet-text-small style">
             <h4>planet</h4>
             <p> A planet is a large, mostly round, object that travels around a star. Our planet, Earth, is one of eight planets that travel around our Sun. Each planet is very different. Let's meet the planets in our Solar System and find out what each one
                 is like.</p>
+                
+<!-----------------Main planets panel with img of each planet linked to a page about specific planet----->
+
         </div>
         <button class="featured">
            <a href="mercury.html"> <img src="https://www.sciencenews.org/sites/default/files/2019/04/main/articles/041919_cg_mercurycore_feat.jpg">
@@ -140,6 +145,18 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
+
+            });
+        })();
+    </script>
+
 </body>
 
 </html>

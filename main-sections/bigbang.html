@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="../style_css/main.css" type="text/css" />
 </head>
+
 <body>
     <header class="header">
 
@@ -39,12 +40,14 @@
                     </div>
 
                     <li class="item-color menuitem"><a href="../main-sections/moon.html" class="moon-button"><span>Moon</span></a></li>
-                    <li class="item-color menuitem"><a href="../main-sections/discoverires.html" class="discoverires-button"><span >Discoveries</span></a></li>
+                    <li class="item-color menuitem"><a href="../main-sections/discoveries.html" class="discoverires-button"><span >Discoveries</span></a></li>
                     <li class="item-color menuitem"><a href="../main-sections/gallery.html" class="gallery-button"><span>Gallery</span></a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    
     <section>
 
         <div class="row">
@@ -58,12 +61,15 @@
                 <p>Before The Big Bang there was nothing at all. </br> No galaxies, no stars, no planets and no life. </br> No time, no space, no light and even no sound! </br> Then suddenly it all began!</p>
             </div>
         </div>
+<!-------------------------------- image of Big Bang Theory--------------->
 
         <div class="bbTheory-photo">
             <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Big-bang_wbbnya.jpg"></img>
         </div>
 
         <h1 class="bbt-heading"> The Big Bang Theory</h1>
+        
+<!----------------------- timeline of Big Bang Theory------------------->
 
         <div class="history-items">
             <div class="timeline-item">
@@ -138,7 +144,17 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function() {
+            var button = document.getElementById('toggle-menu');
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('is-open');
 
+            });
+        })();
+    </script>
 </body>
 
 </html>
