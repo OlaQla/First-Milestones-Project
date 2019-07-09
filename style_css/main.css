@@ -1192,7 +1192,7 @@ footer {
 
 .section-img {
     flex: 1;
-    background-color: rgb(81, 90, 95, 0.2);
+    background-color: rgba(81, 90, 95, 0.2);
 
 }
 
