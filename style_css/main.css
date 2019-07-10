@@ -1192,12 +1192,11 @@ footer {
 
 .section-img {
     flex: 1;
-    background-color: rgba(81, 90, 95, 0.2);
 
 }
 
 .section-text {
-    flex: 2;
+    flex: 1;
     padding: 15px 40px;
 
 }
@@ -1206,12 +1205,13 @@ footer {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 10px 10px;
+    border: 10px solid rgba(81, 90, 95, 0.2);
 }
 
 .section-img img {
     object-fit: cover;
     width: 100%;
+    height: auto;
 }
 
 .section-text h2 {
@@ -1230,12 +1230,14 @@ footer {
     color: #515a5f;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .wrap {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
+    .wrap {
+        min-height: 1030px;
+    }
 }
 
 
@@ -1319,7 +1321,6 @@ footer {
         margin: 0 0.3em 0px 0.3em;
         padding: 0.3em 0 0.3em 0;
     }
-
 }
 
 /*----------------------------------------------Section Moon*/
@@ -1428,12 +1429,12 @@ footer {
 }
 
 .disc-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 40em;
     margin: 0 auto;
-    padding:0 2em;
+    padding: 0 2em;
 }
 
 .dics-wrap {
@@ -1450,9 +1451,9 @@ footer {
     position: absolute;
     right: -0.7em;
     top: 2em;
-    border-top: 0.7em  solid transparent;
+    border-top: 0.7em solid transparent;
     border-right: none;
-    border-left: 0.7em  solid rgba(255, 255, 255, 0.8);
+    border-left: 0.7em solid rgba(255, 255, 255, 0.8);
     border-bottom: 0.7em solid transparent;
 }
 
@@ -1462,9 +1463,9 @@ footer {
     left: -0.7em;
     top: 2em;
     border-top: 0.7em solid transparent;
-    border-right: 0.7em  solid rgba(255, 255, 255, 0.8);
+    border-right: 0.7em solid rgba(255, 255, 255, 0.8);
     border-left: none;
-    border-bottom: 0.7em  solid transparent;
+    border-bottom: 0.7em solid transparent;
 }
 
 .disc-text {
@@ -1475,49 +1476,34 @@ footer {
 
 .year {
     flex: 1;
-    font-family:"Exo", sans-serif;
+    font-family: "Exo", sans-serif;
     color: #e67e22;
-    margin:0;
+    margin: 0;
 }
 
-.disc{
+.disc {
     flex: 1;
     color: black;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin:0;
-    padding-right:2em;
-    text-align:justify;
+    margin: 0;
+    padding-right: 2em;
+    text-align: justify;
 }
 
 .video {
-    margin:0 auto;
-    background-color: rgba(255, 255, 255, 0.8) ;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 0.2em;
     border-radius: 0.1em;
 }
 
 /*---------------------------------------------------Media Discoveries*/
+
 @media (max-width: 767px) {
     iframe {
-        width:100%;
-        height:auto;
+        width: 100%;
+        height: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
