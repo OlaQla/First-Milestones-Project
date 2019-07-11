@@ -1015,6 +1015,7 @@ footer {
 .history-items {
     background-color: #fafafa;
     margin-bottom: 30px;
+    padding-bottom: 2em;
 }
 
 /*---------------------------------------------Media BigBAng*/
@@ -1381,6 +1382,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+     padding-bottom: 2em;
 }
 
 
@@ -1388,7 +1390,7 @@ footer {
     font-family: "Exo", sans-serif;
     font-size: 2em;
     text-align: center;
-    color: #0d47a1;
+    color:  #4d88ff;
     display: block;
     margin: 0;
     padding-top: 1em;
@@ -1433,7 +1435,7 @@ footer {
 }
 
 .columns-wrap h4 {
-    color: #264b82;
+    color:  #4d88ff;
     font-family: "Exo", sans-serif;
     text-align: center;
     font-size: 1.5em;
