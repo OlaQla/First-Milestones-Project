@@ -1,5 +1,5 @@
 # Aleksandra Kula - The story of space 
-Code institute User - Centric frontent development 2019
+Code Institute, User - Centric frontent development 2019
 
 This is educational project for elementary school students. 
 The purposes of this project are to promote STEM subjects in elementary schools 
@@ -7,14 +7,14 @@ while learning how to build good looking responsive websites by just using CSS3.
 
 ## Demo 
 
-Live demo can be found here: 
+Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
 
 ## UX 
 
-In my design of user experience i chose to use rather dark theme that would be consistent with 
+In my design of user experience I chose to use rather dark theme that would be consistent with 
 the main topic of the website. As one of the main purposes of this website is 
-learning CSS3 i chose to use different layouts on the pages to make sure that i cover using the latest 
-layout techniques as grid and flex as well as using floats, all in responsive fashion.
+learning CSS3 I chose to use different layouts on the pages to make sure that I cover using the latest 
+layout techniques as grid and flex as well as traditional methods using floats, all in responsive fashion.
 
 ### Main menu
 
@@ -36,42 +36,31 @@ Gallery page was built using CSS grid and flex to provide interesting layout of 
 
 Footer contains few buttons that link to important pages where users can find more up to date information. 
 
-### Layouts
-
 ## Technologies
 
 1. HTML 5
-2. CSS Selectors
-2. CSS Grid layout
-3. CSS Flex layout
-4. CSS Float layouts
-5. CSS Relative positioning
-6. CSS Transitions
-6. Media queries
+2. CSS3 (Selectors, Grid, Flex, Floats, Positioning, Transitions, Media Queries)
+3. Minimal javascript to open/close hamburger menu
 
 ## Testing 
 
 Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
-Each html file was tested in multiple screen resolution and in mobile device modes 
-available in browsers developer tools. 
+Each html file was tested in multiple screen resolution and in mobile device modes, available in browsers developer tools. 
 
-## Deployment
+## Deployment / Hosting
+
+Application is hosted using Github pages so no deployment process other than configuring repository were necessary.
 
 ## Credits
-
-### Content
-
---- Book title, author, year, ISBN
-NASA
 
 ### Media
 
 All the images are linked to images found in google search results.
 The pictures in gallery were downloaded from google result links and scaled down.
+Videos are linked to youtube.
 
 ### Acknowledgements
 
-Styles used to build solar system model were crafted manually, following inspiration from: ...
-
+Styles used to build solar system model were crafted manually, following inspiration from: https://codepen.io/kowlor/pen/ZYYQoy
 
 ** Purpose of this project is educaional **
