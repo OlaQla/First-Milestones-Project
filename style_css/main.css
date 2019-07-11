@@ -12,11 +12,21 @@
 }
 
 
+html{
+    position: relative;
+   min-height: 100%;
+}
 body {
-    margin: 0;
+    
+    margin: 0 0 175px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+@media(max-width: 420px){
+    body{
+        margin: 0 0 280px;
+    }
+}
 
 /*-----------------------------------------------dropdown*/
 
@@ -109,11 +119,11 @@ body {
     margin-top: 0;
 }
 
-@media (max-width: 350px){
-    .title{
-        font-size:12px;
+@media (max-width: 350px) {
+    .title {
+        font-size: 12px;
     }
-    
+
 }
 
 
@@ -330,10 +340,13 @@ button {
 /*-----------------------------------------------Footer*/
 
 footer {
-    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 300px;
+    width: 100%;
     background-color: #515a5f;
     color: #fafafa;
-    margin: 0;
     width: 100%;
 }
 
@@ -349,8 +362,8 @@ footer {
 
 
 .section-media {
-  padding-top: 15px;
-   margin: 0 auto;
+    padding-top: 15px;
+    margin: 0 auto;
 }
 
 .clearfix:after {
@@ -462,30 +475,31 @@ footer {
 }
 
 .flex-con {
-display:flex;
-width: 500px;
-margin:0 auto;
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
 }
 
-.sec1{
-    margin-right:5px;
+.sec1 {
+    margin-right: 5px;
 }
 
-@media(max-width: 415px){
+@media(max-width: 415px) {
     .flex-con {
         width: 250px;
     }
-    .list-item{
-    width:100%
+    .list-item {
+        width: 100%
     }
-    
+
 }
+
 /*-----------------------------------------------HomePage*/
 
 .container {
     display: flex;
-    background-image: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
-    min-height: 800px;
+    min-height:100%;
+    background: radial-gradient(circle, #03031a, #06071e, #070b23, #080e27, #07112c, #06112d, #06122d, #05122e, #05102b, #040e27, #030b24, #020821);
 }
 
 .container>*+* {
@@ -495,10 +509,12 @@ margin:0 auto;
 
 .column-main {
     flex: 2;
+   
 }
 
 .column-sidebar {
     flex: 1;
+   
 }
 
 
@@ -532,17 +548,13 @@ margin:0 auto;
 .column-main {
     font: Arial, sans-serif;
     color: #fff;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
-
 }
 
 .solar {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 300px;
+    margin-top: 0px;
     margin-left: -300px;
 }
 
@@ -846,17 +858,27 @@ margin:0 auto;
 }
 
 /*----------------------------------------------- Media HomePage*/
-
-@media (max-width:768px) {
+@media (min-width: 500px){
+    .container{
+    height:1100px;
+}
+}
+@media (min-width: 769px){
+.container{
+    height:1360px;
+}
+}
+@media (min-width: 1025px){
+.container{
+    height:900px;
+}
+}
+@media (max-width:1024px) {
     .container {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
-    .column-main {
-        flex-grow: 1;
-
-    }
+     
     .solar {
         display: none;
     }
@@ -873,7 +895,7 @@ margin:0 auto;
     }
 }
 
-@media (min-width:769px) {
+@media (min-width:1025px) {
     .column-main img {
         display: none;
     }
@@ -1075,7 +1097,7 @@ margin:0 auto;
     font-family: "Exo", sans-serif;
     color: #F9D71C;
     font-size: 25px;
-     padding: 0 20px;
+    padding: 0 20px;
 
 }
 
@@ -1104,14 +1126,16 @@ margin:0 auto;
 }
 
 /*---------------------------------------------Section Planets*/
-
+.panel{
+    padding-bottom: 25px;
+}
 .planets-grid {
     background-color: rgba(81, 90, 95, 0.2);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 30px;
     max-width: 960px;
-    margin: 50px auto 30px;
+    margin: 50px auto 50px;
     padding: 25px 25px;
 }
 
@@ -1448,7 +1472,7 @@ margin:0 auto;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
