@@ -109,6 +109,13 @@ body {
     margin-top: 0;
 }
 
+@media (max-width: 350px){
+    .title{
+        font-size:12px;
+    }
+    
+}
+
 
 /*-----------------------------------------------Nav-Menu*/
 
@@ -177,7 +184,7 @@ body {
 }
 
 button {
-    color: #2BBBAD;
+    color: #B6BABA;
     padding: 0;
 
 }
@@ -326,8 +333,8 @@ footer {
     display: block;
     background-color: #515a5f;
     color: #fafafa;
-    min-height: 120px;
     margin: 0;
+    width: 100%;
 }
 
 
@@ -342,10 +349,8 @@ footer {
 
 
 .section-media {
-    width: 100%;
-    float: center;
-    padding-top: 15px;
-    margin-right: 0;
+  padding-top: 15px;
+   margin: 0 auto;
 }
 
 .clearfix:after {
@@ -368,7 +373,6 @@ footer {
 }
 
 .social-links {
-    display: block;
     text-align: center;
     list-style: none;
     padding: 10px 5px;
@@ -457,6 +461,25 @@ footer {
 
 }
 
+.flex-con {
+display:flex;
+width: 500px;
+margin:0 auto;
+}
+
+.sec1{
+    margin-right:5px;
+}
+
+@media(max-width: 415px){
+    .flex-con {
+        width: 250px;
+    }
+    .list-item{
+    width:100%
+    }
+    
+}
 /*-----------------------------------------------HomePage*/
 
 .container {
@@ -1026,7 +1049,7 @@ footer {
 .flex p {
     font-family: "Roboto", sans-serif;
     color: #515a5f;
-    padding: 15px 15px;
+    padding: 15px 25px;
     margin: 0;
     text-align: justify;
 }
@@ -1052,6 +1075,7 @@ footer {
     font-family: "Exo", sans-serif;
     color: #F9D71C;
     font-size: 25px;
+     padding: 0 20px;
 
 }
 
@@ -1059,6 +1083,7 @@ footer {
     font-family: "Roboto", sans-serif;
     color: #515a5f;
     text-align: justify;
+    padding: 0 20px;
 }
 
 .history {
@@ -1326,7 +1351,7 @@ footer {
 /*----------------------------------------------Section Moon*/
 
 .section-background {
-    background: url("https://wallpapercave.com/wp/wp3021612.jpg") no-repeat fixed center;
+    background: url("../gallery_img/moon.jpg") no-repeat fixed bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
