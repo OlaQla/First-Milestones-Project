@@ -10,6 +10,9 @@ while learning how to build good looking responsive websites by just using CSS3.
 
 Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
 ![](gallery_img/DEMO.png)
+![](gallery_img/demo2.png)
+![](gallery_img/demo3.png)
+![](gallery_img/demo4.png)
 
 ## UX 
 In my design of user experience I chose to use rather dark theme that would be consistent with 
