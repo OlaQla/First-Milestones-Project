@@ -1,7 +1,8 @@
 # Aleksandra Kula - The story of space 
 Code Institute, User - Centric frontent development 2019
+# User Story
 
-This is educational project for elementary school students. 
+This is educational project for elementary school students. They come to the website with questions in need of answering and learn about our Solar System.
 The purposes of this project are to promote STEM subjects in elementary schools 
 while learning how to build good looking responsive websites by just using CSS3.
 
@@ -11,11 +12,34 @@ Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
 ![](gallery_img/DEMO.png)
 
 ## UX 
-
 In my design of user experience I chose to use rather dark theme that would be consistent with 
-the main topic of the website. As one of the main purposes of this website is 
+the main topic of the website:
+
+- ![#515a5f](https://placehold.it/15/515a5f/000000?text=+) `#515a5f`
+
+- ![#05122e](https://placehold.it/15/05122e/000000?text=+) `#05122e`
+
+As one of the main purposes of this website is 
 learning CSS3 I chose to use different layouts on the pages to make sure that I cover using the latest 
 layout techniques as grid and flex as well as traditional methods using floats, all in responsive fashion.
+
+## Features:
+Implemented:
+* Documentation - ReadMe File
+* Colour Scheme
+* HTML, CSS(flex, grid, float)
+* Bootstrap: icon,
+* Responsive design: Mobile First
+* UX elements:
+  - User Flow
+  - Animations
+  - Transitions
+  - Hovers
+* Accesibility
+* Git - Version Control System
+* GitHub - Remote Repository
+* Deployed - Hosted on Github Pages
+* Tested manually
 
 ### Main menu
 
@@ -39,9 +63,25 @@ Footer contains few buttons that link to important pages where users can find mo
 
 ## Technologies
 
-1. HTML 5
-2. CSS3 (Selectors, Grid, Flex, Floats, Positioning, Transitions, Media Queries)
-3. Minimal javascript to open/close hamburger menu
+1. HTML 5 
+   - HTML for structure
+2. CSS3 (Selectors, Grid, Flex, Floats, Positioning, Transitions, Media Queries) 
+   - CSS for Styling
+3. JavaScrit
+   - Minimal javascript to open/close hamburger menu
+4. Google Chrome
+   - Used for browser and dev tools
+5. Google
+   - Google used for research
+6. Bootstrap
+   - Minimal bootstrapp for icon
+7. Git used for Version Control
+8. GitHub
+   - Repository hosted on GitHub
+9. Github Pages
+   - Website hosted on Github Pages
+10. Am I Responsive
+   - Testing responsiveness of the website
 
 ## Testing 
 
