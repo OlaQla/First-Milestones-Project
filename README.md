@@ -8,6 +8,7 @@ while learning how to build good looking responsive websites by just using CSS3.
 ## Demo 
 
 Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
+![](gallery_img/DEMO.png)
 
 ## UX 
 
