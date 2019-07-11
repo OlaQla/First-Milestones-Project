@@ -27,7 +27,7 @@ learning CSS3 I chose to use different layouts on the pages to make sure that I 
 layout techniques as grid and flex as well as traditional methods using floats, all in responsive fashion.
 
 ## Features:
-Implemented:
+
 * Documentation - ReadMe File
 * Colour Scheme
 * HTML, CSS(flex, grid, float)
@@ -77,7 +77,7 @@ Footer contains few buttons that link to important pages where users can find mo
 5. Google
    - Google used for research
 6. Bootstrap
-   - Minimal bootstrapp for icon
+   - Minimal bootstrap for icon
 7. Git used for Version Control
 8. GitHub
    - Repository hosted on GitHub
@@ -85,7 +85,7 @@ Footer contains few buttons that link to important pages where users can find mo
    - Website hosted on Github Pages
 10. Am I Responsive
    - Testing responsiveness of the website
-
+   
 ## Testing 
 
 Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
