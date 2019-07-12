@@ -27,21 +27,22 @@ As one of the main purposes of this website is  learning CSS3 I chose to use dif
 
 ## Features:
 
+* Front page including model of Solar System with true scaled time flow
+* Big bang page with timeline
+* Sun page with float based layouts
+* Main planets page with Grid based layout
+* Individual planet pages with flex based layouts
+* Silver themed moon page
+* Discoveries page with events and linked videos using flex layout
+* Gallery laid out on a grid layout
+* Responsive top menu that changes into hamburger menu on devices with small screen resolutions
+* All pages responsive and designed using mobile first principles 
+* Footer with social media buttons
+* Hosting and deployment
+* Site is made crispier using animations and transitions
 * Documentation - ReadMe File
-* Colour Scheme
-* HTML, CSS(flex, grid, float)
-* Bootstrap: icon,
-* Responsive design: Mobile First
-* UX elements:
-  - User Flow
-  - Animations
-  - Transitions
-  - Hovers
-* Accesibility
-* Git - Version Control System
-* GitHub - Remote Repository
-* Deployed - Hosted on Github Pages
-* Tested manually
+* Code is version controlled
+* Manual testing
 
 ### Main menu
 
@@ -61,36 +62,96 @@ Gallery page was built using CSS grid and flex to provide interesting layout of 
 
 ### Footer
 
-Footer contains few buttons that link to important pages where users can find more up to date information. 
+Footer contains few social media buttons that link to important pages where users can find more up to date information. 
 
 ## Technologies
 
 1. HTML 5 
-   - HTML for structure
+   - HTML for document structure
 2. CSS3 (Selectors, Grid, Flex, Floats, Positioning, Transitions, Media Queries) 
-   - CSS for Styling
+   - CSS for document Styling
 3. JavaScrit
    - Minimal javascript to open/close hamburger menu
 4. Google Chrome
-   - Used for browser and dev tools
-5. Google
-   - Google used for research
-6. Bootstrap
-   - Minimal bootstrap for icon
-7. Git used for Version Control
-8. GitHub
+   - Used for browsing, testing and a debugging and development tool
+5. Bootstrap
+   - Minimized bootstrap library for icon support
+6. Git used for Version Control
+7. GitHub
    - Repository hosted on GitHub
-9. Github Pages
+8. Github Pages
    - Website hosted on Github Pages
-10. Am I Responsive
+9. Am I Responsive
    - Testing responsiveness of the website
    
 ## Testing 
 
-- Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
+- Website was tested manually using multiple browsers
 - Each html file was tested in multiple screen resolution and in mobile device modes, available in browsers developer tools. 
 - All links have been manually tested to ensure that they are pointing to the correct destination. 
 - Checked if all alt attributes are add on any img tag on website and if it describes what’s on it. Screen readers for the blind and visually impaired will read out this text and therefore make image accessible.
+- All pages were tested for HTML validity 
+- All pages were tested for CSS validity
+
+Browsers used for testing: 
+
+| Browser name        |
+| ------------- |
+| Google Chrome |
+| Microsoft Edge |
+| Opera |
+| Mozilla Firefox |
+
+Browser test results: 
+
+| Browser name        | Page name | Test result | Fixed |
+| ------------- | ------ | ----- | ------ |
+| Google Chrome | Homepage | OK :heavy_check_mark:|| 
+| Microsoft Edge | Homepage | OK :heavy_check_mark:||
+| Opera |Homepage |OK :heavy_check_mark:||
+| Mozilla Firefox |Homepage |OK :heavy_check_mark:||
+| Google Chrome | Big bang | OK :heavy_check_mark:| |
+| Microsoft Edge | Big bang |OK :heavy_check_mark:||
+| Opera | Big bang |OK :heavy_check_mark:||
+| Mozilla Firefox |Big bang |OK :heavy_check_mark:||
+| Google Chrome | Sun | OK :heavy_check_mark:| |
+| Microsoft Edge | Sun | OK :heavy_check_mark:||
+| Opera |Sun |OK :heavy_check_mark:||
+| Mozilla Firefox |Sun | OK :heavy_check_mark:||
+| Google Chrome | Planets main |OK :heavy_check_mark:|| 
+| Microsoft Edge | Planets main | rgb background didn't work|Fixed :heavy_check_mark:|
+| Opera |Planets main | OK :heavy_check_mark:||
+| Mozilla Firefox |Planets main | OK :heavy_check_mark:||
+| Google Chrome | Planets individual | OK :heavy_check_mark:|| 
+| Microsoft Edge | Planets individual | rgb background didn't work| Fixed :heavy_check_mark:|
+| Opera |Planets individual | OK :heavy_check_mark:||
+| Mozilla Firefox |Planets individual | OK :heavy_check_mark:||
+| Google Chrome | Moon | OK :heavy_check_mark:| |
+| Microsoft Edge | Moon | OK :heavy_check_mark:||
+| Opera |Moon | OK :heavy_check_mark:||
+| Mozilla Firefox |Moon | OK :heavy_check_mark:||
+| Google Chrome | Discoveries | OK :heavy_check_mark:|| 
+| Microsoft Edge | Discoveries | Frame was moved| Fixed :heavy_check_mark:|
+| Opera |Discoveries | OK :heavy_check_mark:||
+| Mozilla Firefox |Discoveries | OK :heavy_check_mark:||
+| Google Chrome | Gallery | OK :heavy_check_mark:| |
+| Microsoft Edge | Gallery | OK :heavy_check_mark:||
+| Opera |Gallery | OK :heavy_check_mark:||
+| Mozilla Firefox |Gallery | OK :heavy_check_mark:||
+
+Brosers and virtual devices used for responsiveness testing: 
+
+| Device name    |
+| ------------- |
+| Galaxy S5 |
+| Pixel 2 |
+| iPhone 5/SE |
+| iPad |
+| iPad Pro |
+| Google Chrome |
+
+Responsiveness test results: 
+
 
 
 ## Deployment / Hosting
@@ -98,14 +159,13 @@ Footer contains few buttons that link to important pages where users can find mo
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 No deployment process other than configuring repository were necessary.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/OlaQla/First-Milestones-Project.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
-
 Deployment process involved:
 
-- Host a git repository on GitHub.
-- The root folder contains README.md and index.html files
-- On GitHub repository settings page move to GitHub Pages section
-- Change source to master branch.
+- Create Git repository on GitHub
+- Commit code and code updates to Git repository on GitHub
+- Enable hosting setting on GitHub pages
+- GitHub pages pointed to host master branch
+- Ensure root folder contains README.md and index.html files
 
 To deploy your own version of the website:
 
@@ -113,12 +173,12 @@ To deploy your own version of the website:
 - Visit the repository
 - Click 'Clone or download' and copy the code for http
 - Open your chosen IDE (Cloud9, VS Code, etc.)
-- Open a terminal in your root directory
+- Open a terminal in your code root directory
 - Type 'git clone ' followed by the code taken from github repository
-git clone https://github.com/OlaQla/First-Milestones-Project.git
+  (git clone https://github.com/OlaQla/First-Milestones-Project.git)
 - When this completes you have your own version of the website (You can make any changes to it)
-- The website can be run by opening one of the HTML files within a web browser
-- Saved changes to the website will appear here after refreshing the page
+- The website can be run by opening one of the HTML files in a web browser
+- Saved changes to the website will appear locally after refreshing the page
 
 ## Credits
 
