@@ -87,14 +87,38 @@ Footer contains few buttons that link to important pages where users can find mo
    
 ## Testing 
 
-Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
-Each html file was tested in multiple screen resolution and in mobile device modes, available in browsers developer tools. 
-All links have been manually tested to ensure that they are pointing to the correct destination. 
-Alt attribute are add on any img tag on website and describes what’s on it. Screen readers for the blind and visually impaired will read out this text and therefore make image accessible.
+- Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
+- Each html file was tested in multiple screen resolution and in mobile device modes, available in browsers developer tools. 
+- All links have been manually tested to ensure that they are pointing to the correct destination. 
+- Checked if all alt attributes are add on any img tag on website and if it describes what’s on it. Screen readers for the blind and visually impaired will read out this text and therefore make image accessible.
+
 
 ## Deployment / Hosting
+
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 No deployment process other than configuring repository were necessary.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/OlaQla/First-Milestones-Project.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+Deployment process involved:
+
+- Host a git repository on GitHub.
+- The root folder contains README.md and index.html files
+- On GitHub repository settings page move to GitHub Pages section
+- Change source to master branch.
+
+To deploy your own version of the website:
+
+- Have git installed
+- Visit the repository
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+git clone https://github.com/OlaQla/First-Milestones-Project.git
+- When this completes you have your own version of the website (You can make any changes to it)
+- The website can be run by opening one of the HTML files within a web browser
+- Saved changes to the website will appear here after refreshing the page
 
 ## Credits
 
