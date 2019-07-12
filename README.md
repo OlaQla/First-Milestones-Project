@@ -10,6 +10,9 @@ Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
 
 ![](gallery_img/DEMO.png)
 
+## Wireframes
+Wireframes are available [here](wireframes)
+
 ## UX 
 - In my design of user experience I chose to use rather dark theme that would be consistent with 
 the main topic of the website:
@@ -81,6 +84,8 @@ Footer contains few social media buttons that link to important pages where user
    - Website hosted on Github Pages
 9. Am I Responsive
    - Testing responsiveness of the website
+10. Balsamiq Mockups 
+    - Creating wireframes
    
 ## Testing 
 
