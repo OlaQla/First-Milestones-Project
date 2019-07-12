@@ -2,8 +2,7 @@
 Code Institute, User - Centric frontent development 2019
 # Project purpose
 
-This is educational project for elementary school students. They come to the website with questions in need of answering and learn about our Solar System. The purposes of this project are to promote STEM subjects in elementary schools. 
-while learning how to build good looking responsive websites by just using CSS3.
+This is educational project for elementary school students. It was inspired by my daughters interest in everything that is related to space, stars and planets. Students can come to the website with questions in need of answering and learn about our Solar System. The purposes of this project are to promote STEM subjects in elementary schools, while learning how to build good looking responsive websites by just using CSS3.
 
 ## Demo 
 
