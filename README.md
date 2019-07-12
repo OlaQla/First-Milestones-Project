@@ -32,7 +32,6 @@ As one of the main purposes of this website is  learning CSS3 I chose to use dif
 * Sun page with float based layouts
 * Main planets page with Grid based layout
 * Individual planet pages with flex based layouts
-* Silver themed moon page
 * Discoveries page with events and linked videos using flex layout
 * Gallery laid out on a grid layout
 * Responsive top menu that changes into hamburger menu on devices with small screen resolutions
@@ -148,11 +147,52 @@ Brosers and virtual devices used for responsiveness testing:
 | iPhone 5/SE |
 | iPad |
 | iPad Pro |
-| Google Chrome |
+
 
 Responsiveness test results: 
 
-
+| Device name        | Page name | Test result | Fixed |
+| ------------- | ------ | ----- | ------ |
+| Galaxy S5 |Homepage | OK :heavy_check_mark:||
+| Pixel 2 |Homepage | OK :heavy_check_mark:||
+| iPhone 5/SE |Homepage | OK :heavy_check_mark:||
+| iPad |Homepage | OK :heavy_check_mark:||
+| iPad Pro |Homepage | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Sun | OK :heavy_check_mark:||
+| Pixel 2 |Sun | OK :heavy_check_mark:||
+| iPhone 5/SE |Sun | OK :heavy_check_mark:||
+| iPad |Sun | OK :heavy_check_mark:||
+| iPad Pro |Sun | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Big bang | OK :heavy_check_mark:||
+| Pixel 2 |Big bang | OK :heavy_check_mark:||
+| iPhone 5/SE |Big bang | OK :heavy_check_mark:||
+| iPad |Big bang | OK :heavy_check_mark:||
+| iPad Pro |Planets main | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Planets main  | OK :heavy_check_mark:||
+| Pixel 2 |Planets main  | OK :heavy_check_mark:||
+| iPhone 5/SE |Planets main  | OK :heavy_check_mark:||
+| iPad |Planets main  | OK :heavy_check_mark:||
+| iPad Pro |Planets main  | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Planets individual  | OK :heavy_check_mark:||
+| Pixel 2 |Planets individual  | OK :heavy_check_mark:||
+| iPhone 5/SE |Planets individual  | OK :heavy_check_mark:||
+| iPad |Planets individual  | OK :heavy_check_mark:||
+| iPad Pro |Planets individual  | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Moon  | OK :heavy_check_mark:||
+| Pixel 2 |Moon   | OK :heavy_check_mark:||
+| iPhone 5/SE |Moon   | OK :heavy_check_mark:||
+| iPad |Moon   | OK :heavy_check_mark:||
+| iPad Pro |Moon   | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Discoveries  | OK :heavy_check_mark: ||
+| Pixel 2 |Discoveries    | OK :heavy_check_mark:||
+| iPhone 5/SE |Discoveries   | OK :heavy_check_mark:||
+| iPad |Discoveries   | OK :heavy_check_mark:||
+| iPad Pro |Discoveries  | footer was positioned incorrectly|Fixed :heavy_check_mark:|
+| Galaxy S5 |Gallery  | OK :heavy_check_mark:||
+| Pixel 2 |Gallery     | OK :heavy_check_mark:||
+| iPhone 5/SE |Gallery    | OK :heavy_check_mark:||
+| iPad |Gallery  | OK :heavy_check_mark:||
+| iPad Pro |Gallery   | footer was positioned incorrectly|Fixed :heavy_check_mark:|
 
 ## Deployment / Hosting
 
@@ -190,6 +230,10 @@ Videos are linked to youtube.
 
 ### Acknowledgements
 
-Styles used to build solar system model were crafted manually, following inspiration from: https://codepen.io/kowlor/pen/ZYYQoy
+- Styles used to build solar system model were crafted manually, following inspiration from: https://codepen.io/kowlor/pen/ZYYQoy
+- https://www.nasa.gov
+- https://kids.nationalgeographic.com
+- https://www.wikipedia.org
+- "Outer Space" By Ruht Martin, Templar publishing 2006, ISBN 978-1-78370-249-7
 
 ** Purpose of this project is educaional **
