@@ -219,7 +219,7 @@ To deploy your own version of the website:
 - Open your chosen IDE (Cloud9, VS Code, etc.)
 - Open a terminal in your code root directory
 - Type 'git clone ' followed by the code taken from github repository
-  (git clone https://github.com/OlaQla/First-Milestones-Project.git)
+  (git clone https://github.com/OlaQla/The-Story-Of-Space.git)
 - When this completes you have your own version of the website (You can make any changes to it)
 - The website can be run by opening one of the HTML files in a web browser
 - Saved changes to the website will appear locally after refreshing the page
