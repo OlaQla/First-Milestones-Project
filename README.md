@@ -6,7 +6,7 @@ This is educational project for elementary school students. It was inspired by m
 
 ## Demo 
 
-Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
+Live demo can be found here: https://olaqla.github.io/The-Story-Of-Space/
 
 ![](gallery_img/DEMO.png)
 
