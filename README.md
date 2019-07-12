@@ -1,30 +1,29 @@
 # Aleksandra Kula - The story of space 
 Code Institute, User - Centric frontent development 2019
-# User Story
+# Project purpose
 
-This is educational project for elementary school students. They come to the website with questions in need of answering and learn about our Solar System.
-The purposes of this project are to promote STEM subjects in elementary schools 
+This is educational project for elementary school students. They come to the website with questions in need of answering and learn about our Solar System. The purposes of this project are to promote STEM subjects in elementary schools. 
 while learning how to build good looking responsive websites by just using CSS3.
 
 ## Demo 
 
 Live demo can be found here: https://olaqla.github.io/First-Milestones-Project/
+
 ![](gallery_img/DEMO.png)
-![](gallery_img/demo2.png)
-![](gallery_img/demo3.png)
-![](gallery_img/demo4.png)
 
 ## UX 
-In my design of user experience I chose to use rather dark theme that would be consistent with 
+- In my design of user experience I chose to use rather dark theme that would be consistent with 
 the main topic of the website:
 
-- ![#515a5f](https://placehold.it/15/515a5f/000000?text=+) `#515a5f`
+    - ![#515a5f](https://placehold.it/15/515a5f/000000?text=+) `#515a5f`
 
-- ![#05122e](https://placehold.it/15/05122e/000000?text=+) `#05122e`
+    - ![#05122e](https://placehold.it/15/05122e/000000?text=+) `#05122e`
+    
+- Roboto font used throughout the website for paragraphs font-family: 'Roboto', sans-serif;
+- Exo font used throughout the website for headings font-family: 'Exo', sans-serif;
 
-As one of the main purposes of this website is 
-learning CSS3 I chose to use different layouts on the pages to make sure that I cover using the latest 
-layout techniques as grid and flex as well as traditional methods using floats, all in responsive fashion.
+As one of the main purposes of this website is  learning CSS3 I chose to use different layouts on the pages to make sure that I cover using the latest layout techniques as grid and flex as well as traditional methods using floats, all in responsive fashion.
+
 
 ## Features:
 
@@ -90,10 +89,12 @@ Footer contains few buttons that link to important pages where users can find mo
 
 Website was tested manually using multiple browsers (Chrome, Firefox, Opera, Edge).
 Each html file was tested in multiple screen resolution and in mobile device modes, available in browsers developer tools. 
+All links have been manually tested to ensure that they are pointing to the correct destination. 
+Alt attribute are add on any img tag on website and describes what’s on it. Screen readers for the blind and visually impaired will read out this text and therefore make image accessible.
 
 ## Deployment / Hosting
-
-Application is hosted using Github pages so no deployment process other than configuring repository were necessary.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+No deployment process other than configuring repository were necessary.
 
 ## Credits
 
